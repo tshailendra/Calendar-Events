@@ -3,6 +3,7 @@
 ![Calendar](./images/calendar.JPG?raw=true)
 
 
+- *ADD Office365Outlook Connector*
 - Connect to Office365Outlook and select fields as required
 ```
 ClearCollect(colEvents, ShowColumns(Office365Outlook.GetEventsCalendarViewV3("Calendar", 
