@@ -8,11 +8,13 @@
 ClearCollect(colEvents, ShowColumns(Office365Outlook.GetEventsCalendarViewV3("Calendar", 
     Text(startdate,DateTimeFormat.UTC), Text(enddate,DateTimeFormat.UTC)).value,"importance", "start", "end", "subject"))
 ```
-- Map the subject to lblDateSchedule_1
+- Map the subject to lblDateSchedule_1.Text
 
 ```
 LookUp(colEvents, Text(DateValue(start),"[$-en-US]ddmmyyyy")= Text(ThisItem.currentdate,"[$-en-US]ddmmyyyy"),subject)
 ```
+
+- Write your custom code in btnDate.OnSelect
 
 # Screen Treeview
 
