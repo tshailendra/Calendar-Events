@@ -1,8 +1,8 @@
-# Calendar Screen
+# Calendar Events Screen
 
 ![Calendar](./images/calendar.JPG?raw=true)
 
-- Download the [zip](https://github.com/tshailendra/Calendar-Screen/blob/main/CalendarEvents.zip) file
+- Download the [zip](https://github.com/tshailendra/Calendar-Events/blob/main/CalendarEvents.zip) file
 - From [PowerApps](https://make.powerapps.com/) > import canvas app option, select the downloaded zip file, to create the Calendar Events canvas app in your environment
 - *ADD* **Office365Outlook Connector**
 - Connect to Office365Outlook and select fields as required
