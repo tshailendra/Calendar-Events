@@ -5,7 +5,8 @@
 
 - Connect to Office365Outlook and select fields as required
 ```
-ClearCollect(colEvents, ShowColumns(Office365Outlook.GetEventsCalendarViewV3("Calendar", Text(startdate,DateTimeFormat.UTC), Text(enddate,DateTimeFormat.UTC)).value,"importance", "start", "end", "subject"))
+ClearCollect(colEvents, ShowColumns(Office365Outlook.GetEventsCalendarViewV3("Calendar", 
+    Text(startdate,DateTimeFormat.UTC), Text(enddate,DateTimeFormat.UTC)).value,"importance", "start", "end", "subject"))
 ```
 - Map the subject to lblDateSchedule_1
 
